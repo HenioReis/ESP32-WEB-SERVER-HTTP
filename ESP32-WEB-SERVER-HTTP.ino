@@ -7,8 +7,8 @@
 #include "esp_http_server.h"
 #include <WiFi.h>
 
-const char *ssid = "ESP32NET";
-const char *password = "acdb3572sczx213";
+const char *ssid = "wifi";
+const char *password = "senha";
 
 httpd_handle_t server = NULL;    // manipulador http
 httpd_req_t *req;                // struc para requisição
